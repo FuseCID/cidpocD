@@ -2,28 +2,33 @@
     <modelVersion>4.0.0</modelVersion>
 
     <parent>
-        <groupId>org.fuse.cidpoc</groupId>
-        <artifactId>parent</artifactId>
-        <version>1.0.0</version>
+        <groupId>org.jboss.cidpoc</groupId>
+        <artifactId>cidpoc-parent</artifactId>
+        <version>1.0.0.Alpha1</version>
     </parent>
 
     <artifactId>projD</artifactId>
-    <version>1.0.0</version>
+    <version>1.0.0-SNAPSHOT</version>
 
     <scm>
         <connection>scm:git:https://github.com/tdiesler/cidpocD</connection>
         <developerConnection>scm:git:https://github.com/tdiesler/cidpocD.git</developerConnection>
         <url>http://github.com/tdiesler/cidpocD</url>
-        <tag>1.0.0</tag>
     </scm>
     
     <properties>
+        <version.cidpoc.a>1.0.0</version.cidpoc.a>
         <version.cidpoc.b>1.0.0</version.cidpoc.b>
     </properties>
 
     <dependencies>
         <dependency>
-            <groupId>org.fuse.cidpoc</groupId>
+            <groupId>org.jboss.cidpoc</groupId>
+            <artifactId>projA</artifactId>
+            <version>${version.cidpoc.a}</version>
+        </dependency>
+        <dependency>
+            <groupId>org.jboss.cidpoc</groupId>
             <artifactId>projB</artifactId>
             <version>${version.cidpoc.b}</version>
         </dependency>
@@ -43,4 +48,12 @@
         </resources>
     </build>
 
+    <!-- Repositories -->
+    <repositories>
+        <repository>
+            <id>jboss-releases</id>
+            <url>https://repository.jboss.org/nexus/content/repositories/releases/</url>
+        </repository>
+    </repositories>
+    
 </project>
