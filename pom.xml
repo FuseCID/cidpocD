@@ -19,7 +19,7 @@
     
     <properties>
         <version.cidpoc.a>1.0.1-SNAPSHOT</version.cidpoc.a>
-        <version.cidpoc.b>1.0.1-SNAPSHOT</version.cidpoc.b>
+        <version.cidpoc.b>1.0.1</version.cidpoc.b>
     </properties>
 
     <dependencies>
