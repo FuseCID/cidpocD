@@ -8,13 +8,13 @@
     </parent>
 
     <artifactId>projD</artifactId>
-    <version>1.2.0</version>
+    <version>1.2.0.fuse-SNAPSHOT</version>
 
     <scm>
         <connection>scm:git:https://github.com/FuseCID/cidpocD</connection>
         <developerConnection>scm:git:git@github.com:FuseCID/cidpocD.git</developerConnection>
         <url>http://github.com/FuseCID/cidpocD</url>
-    <tag>1.2.0</tag>
+    <tag>HEAD</tag>
   </scm>
     
     <properties>
