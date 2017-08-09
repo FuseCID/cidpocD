@@ -18,8 +18,8 @@
   </scm>
     
     <properties>
-        <version.cidpoc.a>1.2.0</version.cidpoc.a>
-        <version.cidpoc.b>1.2.0</version.cidpoc.b>
+        <version.cidpoc.a>1.2.0.fuse-SNAPSHOT</version.cidpoc.a>
+        <version.cidpoc.b>1.2.0.fuse-SNAPSHOT</version.cidpoc.b>
     </properties>
 
     <dependencies>
